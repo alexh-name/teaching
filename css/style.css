@@ -1,0 +1,443 @@
+/* fonts */
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 200;
+  font-style: normal;
+  src: url('/fonts/Source-Sans-Pro-200/Source-Sans-Pro-200.eot');
+  src: url('/fonts/Source-Sans-Pro-200/Source-Sans-Pro-200.eot?#iefix') format('embedded-opentype'),
+       local('Source Sans Pro ExtraLight'),
+       local('Source-Sans-Pro-200'),
+       url('/fonts/Source-Sans-Pro-200/Source-Sans-Pro-200.woff2') format('woff2'),
+       url('/fonts/Source-Sans-Pro-200/Source-Sans-Pro-200.woff') format('woff'),
+       url('/fonts/Source-Sans-Pro-200/Source-Sans-Pro-200.ttf') format('truetype'),
+       url('/fonts/Source-Sans-Pro-200/Source-Sans-Pro-200.svg#SourceSansPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  font-style: normal;
+  src: url('/fonts/Source-Sans-Pro-300/Source-Sans-Pro-300.eot');
+  src: url('/fonts/Source-Sans-Pro-300/Source-Sans-Pro-300.eot?#iefix') format('embedded-opentype'),
+       local('Source Sans Pro Light'),
+       local('Source-Sans-Pro-300'),
+       url('/fonts/Source-Sans-Pro-300/Source-Sans-Pro-300.woff2') format('woff2'),
+       url('/fonts/Source-Sans-Pro-300/Source-Sans-Pro-300.woff') format('woff'),
+       url('/fonts/Source-Sans-Pro-300/Source-Sans-Pro-300.ttf') format('truetype'),
+       url('/fonts/Source-Sans-Pro-300/Source-Sans-Pro-300.svg#SourceSansPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/fonts/Source-Sans-Pro-regular/Source-Sans-Pro-regular.eot');
+  src: url('/fonts/Source-Sans-Pro-regular/Source-Sans-Pro-regular.eot?#iefix') format('embedded-opentype'),
+       local('Source Sans Pro'),
+       local('Source-Sans-Pro-regular'),
+       url('/fonts/Source-Sans-Pro-regular/Source-Sans-Pro-regular.woff2') format('woff2'),
+       url('/fonts/Source-Sans-Pro-regular/Source-Sans-Pro-regular.woff') format('woff'),
+       url('/fonts/Source-Sans-Pro-regular/Source-Sans-Pro-regular.ttf') format('truetype'),
+       url('/fonts/Source-Sans-Pro-regular/Source-Sans-Pro-regular.svg#SourceSansPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  font-style: normal;
+  src: url('/fonts/Source-Sans-Pro-600/Source-Sans-Pro-600.eot');
+  src: url('/fonts/Source-Sans-Pro-600/Source-Sans-Pro-600.eot?#iefix') format('embedded-opentype'),
+       local('Source Sans Pro Semibold'),
+       local('Source-Sans-Pro-600'),
+       url('/fonts/Source-Sans-Pro-600/Source-Sans-Pro-600.woff2') format('woff2'),
+       url('/fonts/Source-Sans-Pro-600/Source-Sans-Pro-600.woff') format('woff'),
+       url('/fonts/Source-Sans-Pro-600/Source-Sans-Pro-600.ttf') format('truetype'),
+       url('/fonts/Source-Sans-Pro-600/Source-Sans-Pro-600.svg#SourceSansPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+  font-style: normal;
+  src: url('/fonts/Source-Sans-Pro-700/Source-Sans-Pro-700.eot');
+  src: url('/fonts/Source-Sans-Pro-700/Source-Sans-Pro-700.eot?#iefix') format('embedded-opentype'),
+       local('Source Sans Pro Bold'),
+       local('Source-Sans-Pro-700'),
+       url('/fonts/Source-Sans-Pro-700/Source-Sans-Pro-700.woff2') format('woff2'),
+       url('/fonts/Source-Sans-Pro-700/Source-Sans-Pro-700.woff') format('woff'),
+       url('/fonts/Source-Sans-Pro-700/Source-Sans-Pro-700.ttf') format('truetype'),
+       url('/fonts/Source-Sans-Pro-700/Source-Sans-Pro-700.svg#SourceSansPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 900;
+  font-style: normal;
+  src: url('/fonts/Source-Sans-Pro-900/Source-Sans-Pro-900.eot');
+  src: url('/fonts/Source-Sans-Pro-900/Source-Sans-Pro-900.eot?#iefix') format('embedded-opentype'),
+       local('Source Sans Pro Black'),
+       local('Source-Sans-Pro-900'),
+       url('/fonts/Source-Sans-Pro-900/Source-Sans-Pro-900.woff2') format('woff2'),
+       url('/fonts/Source-Sans-Pro-900/Source-Sans-Pro-900.woff') format('woff'),
+       url('/fonts/Source-Sans-Pro-900/Source-Sans-Pro-900.ttf') format('truetype'),
+       url('/fonts/Source-Sans-Pro-900/Source-Sans-Pro-900.svg#SourceSansPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 200;
+  font-style: italic;
+  src: url('/fonts/Source-Sans-Pro-200italic/Source-Sans-Pro-200italic.eot');
+  src: url('/fonts/Source-Sans-Pro-200italic/Source-Sans-Pro-200italic.eot?#iefix') format('embedded-opentype'),
+       local('Source Sans Pro ExtraLight Italic'),
+       local('Source-Sans-Pro-200italic'),
+       url('/fonts/Source-Sans-Pro-200italic/Source-Sans-Pro-200italic.woff2') format('woff2'),
+       url('/fonts/Source-Sans-Pro-200italic/Source-Sans-Pro-200italic.woff') format('woff'),
+       url('/fonts/Source-Sans-Pro-200italic/Source-Sans-Pro-200italic.ttf') format('truetype'),
+       url('/fonts/Source-Sans-Pro-200italic/Source-Sans-Pro-200italic.svg#SourceSansPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  font-style: italic;
+  src: url('/fonts/Source-Sans-Pro-300italic/Source-Sans-Pro-300italic.eot');
+  src: url('/fonts/Source-Sans-Pro-300italic/Source-Sans-Pro-300italic.eot?#iefix') format('embedded-opentype'),
+       local('Source Sans Pro Light Italic'),
+       local('Source-Sans-Pro-300italic'),
+       url('/fonts/Source-Sans-Pro-300italic/Source-Sans-Pro-300italic.woff2') format('woff2'),
+       url('/fonts/Source-Sans-Pro-300italic/Source-Sans-Pro-300italic.woff') format('woff'),
+       url('/fonts/Source-Sans-Pro-300italic/Source-Sans-Pro-300italic.ttf') format('truetype'),
+       url('/fonts/Source-Sans-Pro-300italic/Source-Sans-Pro-300italic.svg#SourceSansPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  font-style: italic;
+  src: url('/fonts/Source-Sans-Pro-italic/Source-Sans-Pro-italic.eot');
+  src: url('/fonts/Source-Sans-Pro-italic/Source-Sans-Pro-italic.eot?#iefix') format('embedded-opentype'),
+       local('Source Sans Pro Italic'),
+       local('Source-Sans-Pro-italic'),
+       url('/fonts/Source-Sans-Pro-italic/Source-Sans-Pro-italic.woff2') format('woff2'),
+       url('/fonts/Source-Sans-Pro-italic/Source-Sans-Pro-italic.woff') format('woff'),
+       url('/fonts/Source-Sans-Pro-italic/Source-Sans-Pro-italic.ttf') format('truetype'),
+       url('/fonts/Source-Sans-Pro-italic/Source-Sans-Pro-italic.svg#SourceSansPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 600;
+  font-style: italic;
+  src: url('/fonts/Source-Sans-Pro-600italic/Source-Sans-Pro-600italic.eot');
+  src: url('/fonts/Source-Sans-Pro-600italic/Source-Sans-Pro-600italic.eot?#iefix') format('embedded-opentype'),
+       local('Source Sans Pro Semibold Italic'),
+       local('Source-Sans-Pro-600italic'),
+       url('/fonts/Source-Sans-Pro-600italic/Source-Sans-Pro-600italic.woff2') format('woff2'),
+       url('/fonts/Source-Sans-Pro-600italic/Source-Sans-Pro-600italic.woff') format('woff'),
+       url('/fonts/Source-Sans-Pro-600italic/Source-Sans-Pro-600italic.ttf') format('truetype'),
+       url('/fonts/Source-Sans-Pro-600italic/Source-Sans-Pro-600italic.svg#SourceSansPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 700;
+  font-style: italic;
+  src: url('/fonts/Source-Sans-Pro-700italic/Source-Sans-Pro-700italic.eot');
+  src: url('/fonts/Source-Sans-Pro-700italic/Source-Sans-Pro-700italic.eot?#iefix') format('embedded-opentype'),
+       local('Source Sans Pro Bold Italic'),
+       local('Source-Sans-Pro-700italic'),
+       url('/fonts/Source-Sans-Pro-700italic/Source-Sans-Pro-700italic.woff2') format('woff2'),
+       url('/fonts/Source-Sans-Pro-700italic/Source-Sans-Pro-700italic.woff') format('woff'),
+       url('/fonts/Source-Sans-Pro-700italic/Source-Sans-Pro-700italic.ttf') format('truetype'),
+       url('/fonts/Source-Sans-Pro-700italic/Source-Sans-Pro-700italic.svg#SourceSansPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 900;
+  font-style: italic;
+  src: url('/fonts/Source-Sans-Pro-900italic/Source-Sans-Pro-900italic.eot');
+  src: url('/fonts/Source-Sans-Pro-900italic/Source-Sans-Pro-900italic.eot?#iefix') format('embedded-opentype'),
+       local('Source Sans Pro Black Italic'),
+       local('Source-Sans-Pro-900italic'),
+       url('/fonts/Source-Sans-Pro-900italic/Source-Sans-Pro-900italic.woff2') format('woff2'),
+       url('/fonts/Source-Sans-Pro-900italic/Source-Sans-Pro-900italic.woff') format('woff'),
+       url('/fonts/Source-Sans-Pro-900italic/Source-Sans-Pro-900italic.ttf') format('truetype'),
+       url('/fonts/Source-Sans-Pro-900italic/Source-Sans-Pro-900italic.svg#SourceSansPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/fonts/Source-Serif-Pro-regular/Source-Serif-Pro-regular.eot');
+  src: url('/fonts/Source-Serif-Pro-regular/Source-Serif-Pro-regular.eot?#iefix') format('embedded-opentype'),
+       local('Source Serif Pro'),
+       local('Source-Serif-Pro-regular'),
+       url('/fonts/Source-Serif-Pro-regular/Source-Serif-Pro-regular.woff2') format('woff2'),
+       url('/fonts/Source-Serif-Pro-regular/Source-Serif-Pro-regular.woff') format('woff'),
+       url('/fonts/Source-Serif-Pro-regular/Source-Serif-Pro-regular.ttf') format('truetype'),
+       url('/fonts/Source-Serif-Pro-regular/Source-Serif-Pro-regular.svg#SourceSerifPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-weight: 600;
+  font-style: normal;
+  src: url('/fonts/Source-Serif-Pro-600/Source-Serif-Pro-600.eot');
+  src: url('/fonts/Source-Serif-Pro-600/Source-Serif-Pro-600.eot?#iefix') format('embedded-opentype'),
+       local('Source Serif Pro Semibold'),
+       local('Source-Serif-Pro-600'),
+       url('/fonts/Source-Serif-Pro-600/Source-Serif-Pro-600.woff2') format('woff2'),
+       url('/fonts/Source-Serif-Pro-600/Source-Serif-Pro-600.woff') format('woff'),
+       url('/fonts/Source-Serif-Pro-600/Source-Serif-Pro-600.ttf') format('truetype'),
+       url('/fonts/Source-Serif-Pro-600/Source-Serif-Pro-600.svg#SourceSerifPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-weight: 700;
+  font-style: normal;
+  src: url('/fonts/Source-Serif-Pro-700/Source-Serif-Pro-700.eot');
+  src: url('/fonts/Source-Serif-Pro-700/Source-Serif-Pro-700.eot?#iefix') format('embedded-opentype'),
+       local('Source Serif Pro Bold'),
+       local('Source-Serif-Pro-700'),
+       url('/fonts/Source-Serif-Pro-700/Source-Serif-Pro-700.woff2') format('woff2'),
+       url('/fonts/Source-Serif-Pro-700/Source-Serif-Pro-700.woff') format('woff'),
+       url('/fonts/Source-Serif-Pro-700/Source-Serif-Pro-700.ttf') format('truetype'),
+       url('/fonts/Source-Serif-Pro-700/Source-Serif-Pro-700.svg#SourceSerifPro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  font-weight: 200;
+  font-style: normal;
+  src: url('/fonts/Source-Code-Pro-200/Source-Code-Pro-200.eot');
+  src: url('/fonts/Source-Code-Pro-200/Source-Code-Pro-200.eot?#iefix') format('embedded-opentype'),
+       local('Source Code Pro ExtraLight'),
+       local('Source-Code-Pro-200'),
+       url('/fonts/Source-Code-Pro-200/Source-Code-Pro-200.woff2') format('woff2'),
+       url('/fonts/Source-Code-Pro-200/Source-Code-Pro-200.woff') format('woff'),
+       url('/fonts/Source-Code-Pro-200/Source-Code-Pro-200.ttf') format('truetype'),
+       url('/fonts/Source-Code-Pro-200/Source-Code-Pro-200.svg#SourceCodePro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  font-weight: 300;
+  font-style: normal;
+  src: url('/fonts/Source-Code-Pro-300/Source-Code-Pro-300.eot');
+  src: url('/fonts/Source-Code-Pro-300/Source-Code-Pro-300.eot?#iefix') format('embedded-opentype'),
+       local('Source Code Pro Light'),
+       local('Source-Code-Pro-300'),
+       url('/fonts/Source-Code-Pro-300/Source-Code-Pro-300.woff2') format('woff2'),
+       url('/fonts/Source-Code-Pro-300/Source-Code-Pro-300.woff') format('woff'),
+       url('/fonts/Source-Code-Pro-300/Source-Code-Pro-300.ttf') format('truetype'),
+       url('/fonts/Source-Code-Pro-300/Source-Code-Pro-300.svg#SourceCodePro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/fonts/Source-Code-Pro-regular/Source-Code-Pro-regular.eot');
+  src: url('/fonts/Source-Code-Pro-regular/Source-Code-Pro-regular.eot?#iefix') format('embedded-opentype'),
+       local('Source Code Pro'),
+       local('Source-Code-Pro-regular'),
+       url('/fonts/Source-Code-Pro-regular/Source-Code-Pro-regular.woff2') format('woff2'),
+       url('/fonts/Source-Code-Pro-regular/Source-Code-Pro-regular.woff') format('woff'),
+       url('/fonts/Source-Code-Pro-regular/Source-Code-Pro-regular.ttf') format('truetype'),
+       url('/fonts/Source-Code-Pro-regular/Source-Code-Pro-regular.svg#SourceCodePro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  font-weight: 500;
+  font-style: normal;
+  src: url('/fonts/Source-Code-Pro-500/Source-Code-Pro-500.eot');
+  src: url('/fonts/Source-Code-Pro-500/Source-Code-Pro-500.eot?#iefix') format('embedded-opentype'),
+       local('Source Code Pro Medium'),
+       local('Source-Code-Pro-500'),
+       url('/fonts/Source-Code-Pro-500/Source-Code-Pro-500.woff2') format('woff2'),
+       url('/fonts/Source-Code-Pro-500/Source-Code-Pro-500.woff') format('woff'),
+       url('/fonts/Source-Code-Pro-500/Source-Code-Pro-500.ttf') format('truetype'),
+       url('/fonts/Source-Code-Pro-500/Source-Code-Pro-500.svg#SourceCodePro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  font-weight: 600;
+  font-style: normal;
+  src: url('/fonts/Source-Code-Pro-600/Source-Code-Pro-600.eot');
+  src: url('/fonts/Source-Code-Pro-600/Source-Code-Pro-600.eot?#iefix') format('embedded-opentype'),
+       local('Source Code Pro Semibold'),
+       local('Source-Code-Pro-600'),
+       url('/fonts/Source-Code-Pro-600/Source-Code-Pro-600.woff2') format('woff2'),
+       url('/fonts/Source-Code-Pro-600/Source-Code-Pro-600.woff') format('woff'),
+       url('/fonts/Source-Code-Pro-600/Source-Code-Pro-600.ttf') format('truetype'),
+       url('/fonts/Source-Code-Pro-600/Source-Code-Pro-600.svg#SourceCodePro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  font-weight: 700;
+  font-style: normal;
+  src: url('/fonts/Source-Code-Pro-700/Source-Code-Pro-700.eot');
+  src: url('/fonts/Source-Code-Pro-700/Source-Code-Pro-700.eot?#iefix') format('embedded-opentype'),
+       local('Source Code Pro Bold'),
+       local('Source-Code-Pro-700'),
+       url('/fonts/Source-Code-Pro-700/Source-Code-Pro-700.woff2') format('woff2'),
+       url('/fonts/Source-Code-Pro-700/Source-Code-Pro-700.woff') format('woff'),
+       url('/fonts/Source-Code-Pro-700/Source-Code-Pro-700.ttf') format('truetype'),
+       url('/fonts/Source-Code-Pro-700/Source-Code-Pro-700.svg#SourceCodePro') format('svg');
+}
+
+@font-face {
+  font-family: 'Source Code Pro';
+  font-weight: 900;
+  font-style: normal;
+  src: url('/fonts/Source-Code-Pro-900/Source-Code-Pro-900.eot');
+  src: url('/fonts/Source-Code-Pro-900/Source-Code-Pro-900.eot?#iefix') format('embedded-opentype'),
+       local('Source Code Pro Black'),
+       local('Source-Code-Pro-900'),
+       url('/fonts/Source-Code-Pro-900/Source-Code-Pro-900.woff2') format('woff2'),
+       url('/fonts/Source-Code-Pro-900/Source-Code-Pro-900.woff') format('woff'),
+       url('/fonts/Source-Code-Pro-900/Source-Code-Pro-900.ttf') format('truetype'),
+       url('/fonts/Source-Code-Pro-900/Source-Code-Pro-900.svg#SourceCodePro') format('svg');
+}
+/* end fonts */
+/* classes */
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+.text-center {
+	text-align: center;
+}
+.monospace {
+	font-family: Source Code Pro, monospace;
+}
+/* end classes */
+/* structure */
+body {
+	min-width: 30ch;
+}
+nav {
+	position: fixed;
+	width: 6ch;
+	height: calc(100% - 2ch);
+	overflow-y: auto;
+	font-size: smaller;
+}
+nav a {
+	float: left;
+	width: 2.5ch;
+	margin-top: 1ch;
+	text-align: center;
+}
+div#margin-box {
+	margin-left: 2ch;
+}
+div#paper, div#lastlinks {
+	max-width: 84ch;
+}
+article {
+	padding-top: 3ch;
+	margin-left: 3ch;
+	margin-right: 2ch;
+	padding-bottom: 2ch;
+}
+header {
+	padding-bottom: 8ch;
+}
+div#lastlinks {
+	padding-top: 2ch;
+	padding-bottom: 2ch;
+}
+div#lastlinks a {
+	margin: 0.4ch;
+	display: inline-block;
+}
+/* end structure */
+/* styling */
+body {
+	font-family: Source Sans Pro, sans-serif;
+	background: lightcoral;
+	background: linear-gradient(to bottom, #114357 , lightcoral);
+	color: white;
+}
+header, footer {
+	font-size:0.8em;
+}
+nav, header, footer {
+  font-family: Source Code Pro, monospace;
+}
+nav a, div#lastlinks a {
+	border: solid thin;
+	box-shadow: none;
+	transition: box-shadow 0.2s;
+}
+nav a:hover, div#lastlinks a:hover {
+	box-shadow: 3px 3px;
+}
+article {
+	line-height:140%;
+	word-wrap:break-word;
+}
+pre {
+	color:white;
+	background-color:black;
+	overflow-x:auto;
+	word-wrap:normal;
+	max-width:95%;
+	margin: auto;
+	padding: 1ch;
+}
+code,.quote {
+	line-height:normal;
+}
+a {
+	color:inherit;
+}
+body a {
+	padding: 1ch;
+	text-decoration: none;
+}
+div#paper a {
+	padding: initial;
+	border-bottom: solid thin;
+}
+p {
+	text-align:justify;
+}
+h1 {
+	text-align: center;
+	margin-bottom: 4ch;
+	text-transform: uppercase;
+}
+h2 {
+	border-left:solid;
+	padding-left:2ch;
+	margin-top: 4ch;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Source Serif Pro, serif;
+}
+/*
+div#paper, body a {
+	background: white;
+} */
+footer {
+	border-top: thin solid gray;
+	word-break:break-all;
+}
+ul {
+	list-style-type: circle;
+}
+footer ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+/* end styling */
